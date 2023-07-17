@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    width: 100vh;
+}
+.clickable {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.roundimage {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+}
+.rectangleimage {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2px;
+}
+.topimage {
+    width: 70%;
+    height: 40%;
+}
+.largerectangleimage {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
