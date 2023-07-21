@@ -1,12 +1,11 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, RouterProvider } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
+    <Sidebar/>
   );
 }
 
